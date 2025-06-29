@@ -25,13 +25,31 @@ SilentScope is a lightweight passive reconnaissance tool built in Python. It gat
 
 ---
 
-## 📦 Requirements
+### 🔧 Prerequisites
 
-- Python 3.6+
 - Python modules:
   - `dnspython`
   - `python-whois`
   - `requests`
+Before running the tool, ensure the following are set up:
+
+* ✅ You are using **Python 3.6+**
+* ✅ You have **pip** installed for managing Python packages
+* ✅ You have an active internet connection (for OSINT lookups)
+* ✅ You have permission or legal scope to investigate the target domain
+
+To check your Python version:
+
+```bash
+python3 --version
+```
+
+To install `pip` (if not installed):
+
+```bash
+sudo apt update
+sudo apt install python3-pip
+```
 
 ---
 

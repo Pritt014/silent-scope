@@ -57,18 +57,25 @@ sudo apt install python3-pip
 ## 🛠️ Usage
 
 ```bash
-python3 passive_recon.py <domain> [-o OUTPUT_FILE]
+python3 silent_scope.py <domain> [-o OUTPUT_FILE]
 ```
 
 ### ✅ Example:
 
 ```bash
-python3 passive_recon.py example.com
+python3 silent_scope.py example.com
 ```
 
 ```bash
-python3 passive_recon.py example.com -o results.json
+python3 silent_scope.py example.com -o results.json
 ```
+
+If no domain is provided:
+
+```bash
+Enter target domain (e.g. example.com):
+```
+
 ---
 
 ## 📂 Output

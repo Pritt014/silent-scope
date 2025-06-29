@@ -1,14 +1,7 @@
 # silent-scope
 SilentScope is a lightweight passive reconnaissance tool built in Python. It gathers DNS records, WHOIS data, and subdomains using open OSINT sources—without sending direct probes to the target infrastructure. Ideal for red teamers, threat analysts, and cybersecurity researchers conducting safe, stealthy intelligence collection.
 
----
-
-```
 # 🕵️‍♂️ Passive Recon Tool
-
-A Python-based command-line tool for passive reconnaissance of domains. It gathers DNS records, WHOIS data, and performs subdomain enumeration using open OSINT sources — all without actively interacting with the target's infrastructure.
-
----
 
 ## 🚀 Features
 
@@ -40,12 +33,6 @@ A Python-based command-line tool for passive reconnaissance of domains. It gathe
   - `python-whois`
   - `requests`
 
-You can install the dependencies using:
-
-```bash
-pip install -r requirements.txt
-```
-
 ---
 
 ## 🛠️ Usage
@@ -63,7 +50,6 @@ python3 passive_recon.py example.com
 ```bash
 python3 passive_recon.py example.com -o results.json
 ```
-
 ---
 
 ## 📂 Output
@@ -90,18 +76,6 @@ python3 passive_recon.py example.com -o results.json
   ]
 }
 ```
-
----
-
-## 📁 Project Structure
-
-```
-passive-recon/
-├── passive_recon.py         # Main script
-├── requirements.txt         # Dependencies
-└── README.md                # Documentation
-```
-
 ---
 
 ## 🔐 Legal Disclaimer

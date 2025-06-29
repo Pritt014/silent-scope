@@ -31,6 +31,7 @@ SilentScope is a lightweight passive reconnaissance tool built in Python. It gat
   - `dnspython`
   - `python-whois`
   - `requests`
+    
 Before running the tool, ensure the following are set up:
 
 * ✅ You are using **Python 3.6+**
